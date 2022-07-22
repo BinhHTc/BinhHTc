@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Binh Cho Dien'){
             steps{
-                sh 'echo Binh Cho Dai'
+                git 'https://github.com/BinhHTc/BinhHTc.git'
             }
         }
     }
